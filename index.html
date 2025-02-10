@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <html data-theme="light"></html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,6 +24,8 @@
         font-family: "Sora", serif;
       }
     </style>
+    <!-- font icon -->
+    <script src="https://kit.fontawesome.com/c541da3e45.js" crossorigin="anonymous"></script>
     <!-- tailwind setup -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -38,5 +41,37 @@
       };
     </script>
   </head>
-  <body></body>
+  <body>
+    <header class="container mx-auto bg-[#FFFFFF]">
+        <!-- navbar -->
+         <nav class="">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <img src="c2-assets/logo-header.png" alt="">
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Product</a></li>
+                    <li><a>Services</a></li>                   
+                    <li><a>Contact us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <i class="fa-solid fa-magnifying-glass"></i>    
+                    <i class="fa-solid fa-cart-shopping"></i>               
+                  <a class="btn">Button</a>
+                  <a class="btn">Button</a>
+                </div>
+              </div>
+         </nav>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+  </body>
 </html>
